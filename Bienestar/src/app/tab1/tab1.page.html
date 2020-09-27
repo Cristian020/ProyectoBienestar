@@ -1,0 +1,144 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Crear
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Datos de registro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-radio-group value="espacio">
+      <ion-list-header>
+        <ion-label>Tipo de registro</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Espacio</ion-label>
+        <ion-radio slot="start" value="espacio"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Elemento</ion-label>
+        <ion-radio slot="start" value="elemento"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Subelemento de un espacio</ion-label>
+        <ion-radio slot="start" value="buford"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  <ion-item>
+    <ion-label position="floating">Nombre </ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+  <ion-label position="floating">Descripción</ion-label>
+  <ion-textarea placeholder="Descripción del registro"></ion-textarea>
+</ion-item>
+  <ion-item>
+  <ion-label position="floating">Recomendaciones de uso</ion-label>
+  <ion-textarea placeholder="Recomendaciones para los beneficiarios"></ion-textarea>
+</ion-item>
+<ion-item>
+    <ion-label position="floating">Capacidad máxima</ion-label>
+  <ion-input position="floating" type="number"></ion-input>
+  <ion-input></ion-input>
+</ion-item>
+  <ion-item>
+      <ion-label position="floating">Número de unidades</ion-label>
+    <ion-input position="floating" type="number"></ion-input>
+    <ion-input></ion-input>
+  </ion-item>
+   <ion-button color="primary" expand="block" (click)="addPhotoToGallery()"><ion-icon name="camera-outline"></ion-icon></ion-button>
+
+
+   <ion-item-divider></ion-item-divider>
+  <ion-list>
+    <ion-list-header>
+  <ion-label>Disponibilidad horaria</ion-label>
+</ion-list-header>
+    <ion-list>
+      <ion-item>
+        <ion-label>Lunes</ion-label>
+
+
+      </ion-item>
+
+      <ion-item class = "admin-create-availability-datetime">
+       <ion-label>Inicio</ion-label>
+       <ion-datetime displayFormat="HH:mm" placeholder="inicio"></ion-datetime>
+
+     </ion-item>
+     <ion-item>
+       <ion-label>Fin</ion-label>
+          <ion-datetime displayFormat="HH:mm" placeholder="fin"></ion-datetime>
+     </ion-item>
+        <ion-item-divider></ion-item-divider>
+      <ion-item>
+        <ion-label>Martes</ion-label>
+      </ion-item>
+      <ion-item class = "admin-create-availability-datetime">
+       <ion-label>Inicio</ion-label>
+       <ion-datetime displayFormat="HH:mm" placeholder="inicio"></ion-datetime>
+
+     </ion-item>
+     <ion-item>
+       <ion-label>Fin</ion-label>
+          <ion-datetime displayFormat="HH:mm" placeholder="fin"></ion-datetime>
+     </ion-item>
+
+         <ion-item-divider></ion-item-divider>
+      <ion-item>
+        <ion-label>Miércoles</ion-label>
+      </ion-item>
+      <ion-item class = "admin-create-availability-datetime">
+       <ion-label>Inicio</ion-label>
+       <ion-datetime displayFormat="HH:mm" placeholder="inicio"></ion-datetime>
+
+     </ion-item>
+
+     <ion-item>
+       <ion-label>Fin</ion-label>
+          <ion-datetime displayFormat="HH:mm" placeholder="fin"></ion-datetime>
+     </ion-item>
+           <ion-item-divider></ion-item-divider>
+      <ion-item>
+        <ion-label>Jueves</ion-label>
+      </ion-item>
+      <ion-item class = "admin-create-availability-datetime">
+       <ion-label>Inicio</ion-label>
+       <ion-datetime displayFormat="HH:mm" placeholder="inicio"></ion-datetime>
+
+     </ion-item>
+     <ion-item>
+       <ion-label>Fin</ion-label>
+          <ion-datetime displayFormat="HH:mm" placeholder="fin"></ion-datetime>
+     </ion-item>
+         <ion-item-divider></ion-item-divider>
+      <ion-item>
+        <ion-label>Viernes</ion-label>
+      </ion-item>
+      <ion-item class = "admin-create-availability-datetime">
+       <ion-label>Inicio</ion-label>
+       <ion-datetime displayFormat="HH:mm" placeholder="inicio"></ion-datetime>
+
+     </ion-item>
+     <ion-item>
+       <ion-label>Fin</ion-label>
+          <ion-datetime displayFormat="HH:mm" placeholder="fin"></ion-datetime>
+     </ion-item>
+    </ion-list>
+
+  </ion-list>
+<ion-button color="primary" expand="block">Crear elemento o espacio</ion-button>
+
+
+
+</ion-content>

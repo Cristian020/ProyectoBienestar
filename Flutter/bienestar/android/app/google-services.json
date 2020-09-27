@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "127692484449",
+    "firebase_url": "https://dev-bienestarkonrad.firebaseio.com",
+    "project_id": "dev-bienestarkonrad",
+    "storage_bucket": "dev-bienestarkonrad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127692484449:android:9b62fe59bea185edaa1f20",
+        "android_client_info": {
+          "package_name": "com.example.bienestar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127692484449-oj83rm4jbrndimmieikfvrnpcb95norb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWf9XItDFvD2CyN6txV5VQGjhXyKpu1gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127692484449-oj83rm4jbrndimmieikfvrnpcb95norb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "127692484449-mr1stlemitb67353t15fq98442us3hbb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bienestar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

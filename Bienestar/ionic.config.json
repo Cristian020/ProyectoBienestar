@@ -1,0 +1,7 @@
+{
+  "name": "Bienestar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

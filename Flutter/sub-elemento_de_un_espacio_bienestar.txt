@@ -1,0 +1,31 @@
+{
+    "sub-elementos" : [
+        {
+            "nombre" : "xbox",
+            "cantidad maxima de invitados" : "3",
+            "reglas de uso" : "no dejar caer el control",
+            "tiempo de uso" : "30 minutos",
+            "horario" : "Viernes 10:00 - 10:30",
+            "elementos incluidos" : [
+                {
+                    "elemento1" : "consola",
+                    "elemento2" : "2 controles con baterias",
+                    "elemento3" : "videojuego"
+                }
+            ]
+        },
+
+        {
+            "nombre" : "tapete de baile",
+            "cantidad maxima de invitados" : "4",
+            "reglas de uso" : "apagar la maquina al finalizar",
+            "tiempo de uso" : "30 minutos",
+            "horario" : "Lunes 11:00 - 11:30",
+            "elementos incluidos" : [
+                {
+                    "elemento1" : "tapete"
+                }
+            ]
+        }
+    ]
+}

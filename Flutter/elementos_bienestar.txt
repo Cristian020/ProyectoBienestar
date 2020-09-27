@@ -1,0 +1,33 @@
+{
+    "elementos" : [
+        {
+            "nombre" : "Balon de voleibol",
+            "cantidad maxima de invitados" : "10",
+            "reglas de uso" : "no romper ventanas",
+            "tiempo de uso" : "45 minutos",
+            "horario" : "Martes 10:00 - 10:45",
+            "elementos incluidos" : [
+                {
+                    "elemento1" : "maya",
+                    "elemento2" : "balon"
+                }
+            ]
+        },
+
+        {
+            "nombre" : "Ajedrez",
+            "cantidad maxima de invitados" : "1",
+            "reglas de uso" : "no perder las fichas",
+            "tiempo de uso" : "45 minutos",
+            "horario" : "Jueves 10:00 - 10:45",
+            "elementos incluidos" : [
+                {
+                    "elemento1" : "mesa",
+                    "elemento2" : "fichas"
+                }
+            ]
+        }
+    ]
+}
+
+

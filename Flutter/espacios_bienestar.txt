@@ -1,0 +1,37 @@
+{
+    Espacios  [
+        {
+            nombre  Ping Pong,
+            cantidad maxima de invitados  3,
+            reglas de uso  no meter la bola a la boca,
+            tiempo de uso  30 minutos,
+            horario  Lunes 1000 - 1030,
+            elementos incluidos  [
+                {
+                    elemento1  2 raquetas,
+                    elemento2  pelota,
+                    elemento3  mesa
+                }
+            ]
+        },
+
+        {
+            nombre  Billar,
+            cantidad maxima de invitados  3,
+            reglas de uso  no sentarse en la mesa,
+            tiempo de uso  30 minutos,
+            horario  Miercoles 1000 - 1030,
+            elementos incluidos  [
+                {
+                    elemento1  2 tacos,
+                    elemento2  16 bolas,
+                    elemento3  mesa,
+                    elemento4  tizas
+                }
+            ]
+        }
+    ]
+}
+
+
+    
